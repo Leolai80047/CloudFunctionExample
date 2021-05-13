@@ -4,6 +4,7 @@ import com.github.javafaker.Faker
 import com.google.cloud.functions.HttpFunction
 import com.google.cloud.functions.HttpRequest
 import com.google.cloud.functions.HttpResponse
+import com.google.gson.GsonBuilder
 import model.News
 import java.net.HttpURLConnection
 import java.util.*
@@ -19,20 +20,27 @@ class QueryJsonHandler: HttpFunction {
             }
         }
 
-        val limit = request.queryParameters["limit"]
+        val limit = request.queryParameters["limit"]?.first()?.toIntOrNull()?: 10
         val faker = Faker.instance(Locale.ENGLISH)
 
-        val data = News(
-            id = "",
-            title = faker.lorem().sentence(),
-            author = faker.name().fullName(),
-            content = faker.lorem().paragraph()
-        )
+        val data = (1..limit).map { index ->
+            News(
+                id = index.toString(),
+                title = faker.lorem().sentence(),
+                author = faker.name().fullName(),
+                content = faker.lorem().paragraph()
+            )
+        }
+
+        val gson = GsonBuilder().setPrettyPrinting().create()
 
         with(response) {
             setStatusCode(HttpURLConnection.HTTP_OK)
-            setContentType("application/json")
-            writer.write("")
+            writer.write(
+                gson.toJson(
+                    mapOf("data" to  data)
+                )
+            )
         }
     }
 }

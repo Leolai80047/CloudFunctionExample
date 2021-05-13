@@ -11,10 +11,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CloudFunctionExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CloudFunctionExample.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Run_PlainTextHandler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Run_PlainTextHandler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/handler/PlainTextHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/handler/PlainTextHandler.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/handler/QueryJsonHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/handler/QueryJsonHandler.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/handler/SimpleJsonHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/handler/SimpleJsonHandler.kt" afterDir="false" />
     </list>
@@ -89,15 +90,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Gradle.CloudFunctionExample [clean]">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,16 +167,21 @@
     <configuration name="api-client#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/api-client.http" runType="Run single request">
       <method v="2" />
     </configuration>
+    <configuration name="client#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/client.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Gradle.Run PlainTextHandler" />
       <item itemvalue="Gradle.CloudFunctionExample [clean]" />
       <item itemvalue="Gradle.CloudFunctionExample [build]" />
       <item itemvalue="Gradle.CloudFunctionExample [buildFunction]" />
       <item itemvalue="HTTP Request.api-client#1" />
+      <item itemvalue="HTTP Request.client#1" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.CloudFunctionExample [clean]" />
+        <item itemvalue="HTTP Request.client#1" />
         <item itemvalue="Gradle.CloudFunctionExample [build]" />
         <item itemvalue="HTTP Request.api-client#1" />
         <item itemvalue="Gradle.CloudFunctionExample [buildFunction]" />
@@ -194,6 +198,7 @@
       <updated>1619940813744</updated>
       <workItem from="1619940815592" duration="2789000" />
       <workItem from="1620888852241" duration="894000" />
+      <workItem from="1620889897919" duration="1553000" />
     </task>
     <servers />
   </component>
@@ -210,5 +215,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
