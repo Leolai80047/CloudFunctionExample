@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.cloud.functions:functions-framework-api:1.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.cloud.functions/functions-framework-api/1.0.1/c5cf8a86d76689c639ab8aed9cb0459b684138e9/functions-framework-api-1.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.cloud.functions/functions-framework-api/1.0.1/ea58842424fcdae8fd7510d034c9ce44460f0ca0/functions-framework-api-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
