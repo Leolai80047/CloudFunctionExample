@@ -23,7 +23,7 @@ class QueryJsonHandler: HttpFunction {
         val faker = Faker.instance(Locale.ENGLISH)
 
         val data = News(
-            id = index.toString(),
+            id = "",
             title = faker.lorem().sentence(),
             author = faker.name().fullName(),
             content = faker.lorem().paragraph()
@@ -32,7 +32,7 @@ class QueryJsonHandler: HttpFunction {
         with(response) {
             setStatusCode(HttpURLConnection.HTTP_OK)
             setContentType("application/json")
-            writer.write()
+            writer.write("")
         }
     }
 }

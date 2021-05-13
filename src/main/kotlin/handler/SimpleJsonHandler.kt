@@ -22,7 +22,7 @@ class SimpleJsonHandler: HttpFunction {
         with(response) {
             setStatusCode(HttpURLConnection.HTTP_OK)
             setContentType("application/json")
-            writer.write()
+            writer.write("")
         }
     }
 }
