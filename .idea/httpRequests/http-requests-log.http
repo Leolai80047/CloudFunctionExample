@@ -1,3 +1,35 @@
+GET http://localhost:8080
+
+###
+
+GET https://localhost:8080
+
+###
+
+GET http://localhost:8080
+
+###
+
+GET http://localhost:8080
+
+###
+
+GET http://localhost:8080
+
+###
+
+GET http://localhost:8080
+
+###
+
+GET https://localhost:8080
+
+###
+
+GET https://localhost:8080
+
+###
+
 GET https://asia-east2-infra-bedrock-312304.cloudfunctions.net/demo
 
 <> 2021-05-02T161646.200.txt
